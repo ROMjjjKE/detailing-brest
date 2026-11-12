@@ -62,7 +62,7 @@ color:#fff;font-size:10.5px;font-family:var(--f-m);letter-spacing:.06em;text-tra
 .sec--dark .mono{color:rgba(255,255,255,.5)}
 .sec--dark p{color:rgba(255,255,255,.76)}
 .head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:clamp(18px,4vw,54px);align-items:end;margin-bottom:clamp(24px,4vw,46px)}
-.head h2{font-size:clamp(26px,3.6vw,46px);max-width:20ch}
+.head h1,.head h2{font-size:clamp(26px,3.6vw,46px);max-width:20ch}
 @media (max-width:899px){.head{grid-template-columns:1fr}}
 .lead{font-size:clamp(16.5px,1.5vw,19.5px);color:var(--ink2);max-width:54ch}
 .hero__facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
